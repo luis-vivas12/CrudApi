@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    justify-content: center;
+}
+
+.container_m {
+    margin: 100px auto;
+    width: 85%;
+    padding: 20px;
+    background-color: #44befb;
+    box-shadow: 0em 0em 20em rgb(33, 182, 216);
+    opacity: .9;
+    border-radius: 15px;
+    border: double 15px rgb(3, 107, 133);
+}
+
+.container {
+    margin: 100px auto;
+    width: 20cm;
+    padding: 50px;
+    background-color: #2eebe7;
+    box-shadow: 0em 0em 20em rgb(164, 225, 239);
+    opacity: .9;
+    border-radius: 15px;
+    border: double 15px rgb(3, 107, 133);
+}
+
+body {
+    background-image: url(fondo.jpg);
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 3px rgb(3, 107, 133);
+    border-radius: 50px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.users-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.users-form form input {
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    font-size: medium;
+}
+
+.users-form form input[type=text],
+.users-form form input[type=password],
+.users-form form input[type=email] {
+    padding: 8px;
+    border: 2px outset #066287;
+    border-radius: 4px;
+    outline: none;
+    transition: .3s;
+}
+
+.users-form form input[type=text]:focus,
+.users-form form input[type=password]:focus,
+.users-form form input[type=email]:focus {
+    border-color: rgb(164, 225, 239);
+    box-shadow: 0 0 6px 0 rgb(164, 225, 239);
+}
+
+.users-form form input[type=submit] {
+    border: none;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px outset #029180;
+}
+
+.users-form form input[type=submit]:hover {
+    background-color: #87e9c0;
+    color: rgb(0, 0, 0);
+}
+
+.users-table table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+table tr {
+    border-bottom: 1px solid black;
+    padding: 4px;
+}
+
+table th {
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.actions {
+    padding: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    border: 1px inset rgb(120, 156, 165);
+    box-shadow: 0 0 6px 0 rgb(3, 107, 133);
+}
